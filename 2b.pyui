@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{33, 13}, {417, 60}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "DDCC20A4-522D-48B3-AA59-F3FC34EC5AE2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the amount of seconds since the object has been dropped:",
+          "name" : "description_label",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{139, 81}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E659E102-4AF4-4DC8-86EF-310EB03C9DDD",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "object_height_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{84, 144}, {307, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_height_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "654BE04C-63C4-4EF1-B389-7F7FB55B6975",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 25
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{84, 239}, {307, 63}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "F81A3F3F-6AA1-446A-8B28-11AE6D2AC0DD",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "output_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
